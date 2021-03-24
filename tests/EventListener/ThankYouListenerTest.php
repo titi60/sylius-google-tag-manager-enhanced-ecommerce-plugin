@@ -9,7 +9,7 @@ use Sylius\Bundle\OrderBundle\Controller\OrderController;
 use Sylius\Component\Channel\Context\ChannelContextInterface;
 use Sylius\Component\Core\Repository\OrderRepositoryInterface;
 use Sylius\Component\Currency\Context\CurrencyContextInterface;
-use Symfony\Component\HttpKernel\Event\FilterControllerEvent;
+use Symfony\Component\HttpKernel\Event\;
 use Xynnn\GoogleTagManagerBundle\Service\GoogleTagManager;
 
 /**
@@ -29,7 +29,7 @@ final class ThankYouListenerTest extends TestCase
         $channelContext = $this->getMockBuilder(ChannelContextInterface::class)->getMock();
         $currencyContext = $this->getMockBuilder(CurrencyContextInterface::class)->getMock();
         $orderRepository = $this->getMockBuilder(OrderRepositoryInterface::class)->getMock();
-        $event = $this->getMockBuilder(FilterControllerEvent::class)->disableOriginalConstructor()->getMock();
+        $event = $this->getMockBuilder(::class)->disableOriginalConstructor()->getMock();
         $controller = $this->getMockBuilder(OrderController::class)->disableOriginalConstructor()->getMock();
 
         // Mock expectations
@@ -59,7 +59,7 @@ final class ThankYouListenerTest extends TestCase
             $channelContext = $this->getMockBuilder(ChannelContextInterface::class)->getMock();
             $currencyContext = $this->getMockBuilder(CurrencyContextInterface::class)->getMock();
             $orderRepository = $this->getMockBuilder(OrderRepositoryInterface::class)->getMock();
-            $event = $this->getMockBuilder(FilterControllerEvent::class)->disableOriginalConstructor()->getMock();
+            $event = $this->getMockBuilder(::class)->disableOriginalConstructor()->getMock();
             $controller = $this->getMockBuilder(OrderController::class)->disableOriginalConstructor()->getMock();
             $session = $this->getMockBuilder(SessionInterface::class)->getMock();
             $request = $this->getMockBuilder(Request::class)->disableOriginalConstructor()->getMock();
@@ -95,7 +95,7 @@ final class ThankYouListenerTest extends TestCase
             $channelContext = $this->getMockBuilder(ChannelContextInterface::class)->getMock();
             $currencyContext = $this->getMockBuilder(CurrencyContextInterface::class)->getMock();
             $orderRepository = $this->getMockBuilder(OrderRepositoryInterface::class)->getMock();
-            $event = $this->getMockBuilder(FilterControllerEvent::class)->disableOriginalConstructor()->getMock();
+            $event = $this->getMockBuilder(::class)->disableOriginalConstructor()->getMock();
             $controller = $this->getMockBuilder(OrderController::class)->disableOriginalConstructor()->getMock();
             $session = $this->getMockBuilder(SessionInterface::class)->getMock();
             $request = $this->getMockBuilder(Request::class)->disableOriginalConstructor()->getMock();

@@ -6,7 +6,7 @@ use Titi60\SyliusGtmEnhancedEcommercePlugin\TagManager\AddTransactionInterface;
 use Sylius\Bundle\CoreBundle\Controller\OrderController;
 use Sylius\Component\Core\Model\OrderInterface;
 use Sylius\Component\Core\Repository\OrderRepositoryInterface;
-use Symfony\Component\HttpKernel\Event\FilterControllerEvent;
+use Symfony\Component\HttpKernel\Event\;
 
 /**
  * Class ThankYouListener
@@ -39,9 +39,9 @@ final class ThankYouListener
     }
 
     /**
-     * @param FilterControllerEvent $event
+     * @param  $event
      */
-    public function onKernelController(FilterControllerEvent $event): void
+    public function onKernelController( $event): void
     {
         $controller = $event->getController();
 
