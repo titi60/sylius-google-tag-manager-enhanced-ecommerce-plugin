@@ -1,13 +1,13 @@
 <?php declare(strict_types=1);
 
-namespace StefanDoorn\SyliusGtmEnhancedEcommercePlugin\Object\Factory;
+namespace Titi60\SyliusGtmEnhancedEcommercePlugin\Object\Factory;
 
-use StefanDoorn\SyliusGtmEnhancedEcommercePlugin\Object\ProductDetailImpression;
-use StefanDoorn\SyliusGtmEnhancedEcommercePlugin\Object\ProductDetailImpressionInterface;
+use Titi60\SyliusGtmEnhancedEcommercePlugin\Object\ProductDetailImpression;
+use Titi60\SyliusGtmEnhancedEcommercePlugin\Object\ProductDetailImpressionInterface;
 
 /**
  * Class ProductDetailImpressionFactory
- * @package StefanDoorn\SyliusGtmEnhancedEcommercePlugin\Object\Factory
+ * @package Titi60\SyliusGtmEnhancedEcommercePlugin\Object\Factory
  */
 final class ProductDetailImpressionFactory implements ProductDetailImpressionFactoryInterface
 {

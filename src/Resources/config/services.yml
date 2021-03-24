@@ -5,19 +5,19 @@ services:
         public: false
 
     sylius.google_tag_manager.enhanced_ecommerce_tracking.tag_manager.add_transaction:
-        class: StefanDoorn\SyliusGtmEnhancedEcommercePlugin\TagManager\AddTransaction
+        class: Titi60\SyliusGtmEnhancedEcommercePlugin\TagManager\AddTransaction
         arguments:
             - "@google_tag_manager"
             - "@sylius.context.channel"
             - "@sylius.context.currency"
 
     sylius.google_tag_manager.enhanced_ecommerce_tracking.tag_manager.checkout_step:
-        class: StefanDoorn\SyliusGtmEnhancedEcommercePlugin\TagManager\CheckoutStep
+        class: Titi60\SyliusGtmEnhancedEcommercePlugin\TagManager\CheckoutStep
         arguments:
             - "@google_tag_manager"
 
     sylius.google_tag_manager.enhanced_ecommerce.tracking.resolver.product_detail_impression_data:
-        class: StefanDoorn\SyliusGtmEnhancedEcommercePlugin\Resolver\ProductDetailImpressionDataResolver
+        class: Titi60\SyliusGtmEnhancedEcommercePlugin\Resolver\ProductDetailImpressionDataResolver
         arguments:
             - "@sylius.calculator.product_variant_price"
             - "@sylius.context.channel"
@@ -25,10 +25,10 @@ services:
             - "@sylius.google_tag_manager.enhanced_ecommerce_tracking.object.factory.product_detail"
 
     sylius.google_tag_manager.enhanced_ecommerce_tracking.resolver.checkout_step:
-        class: StefanDoorn\SyliusGtmEnhancedEcommercePlugin\Resolver\CheckoutStepResolver
+        class: Titi60\SyliusGtmEnhancedEcommercePlugin\Resolver\CheckoutStepResolver
 
     sylius.google_tag_manager.enhanced_ecommerce_tracking.tag_manager.currency_code:
-        class: StefanDoorn\SyliusGtmEnhancedEcommercePlugin\TagManager\CurrencyCode
+        class: Titi60\SyliusGtmEnhancedEcommercePlugin\TagManager\CurrencyCode
         arguments:
             - "@google_tag_manager"
             - "@sylius.context.currency"
@@ -41,13 +41,13 @@ services:
             - { name: kernel.event_listener, event: sonata.block.event.sylius.shop.layout.head, method: onBlockEvent }
 
     sylius.google_tag_manager.enhanced_ecommerce_tracking.object.factory.product_detail:
-        class: StefanDoorn\SyliusGtmEnhancedEcommercePlugin\Object\Factory\ProductDetailFactory
+        class: Titi60\SyliusGtmEnhancedEcommercePlugin\Object\Factory\ProductDetailFactory
 
     sylius.google_tag_manager.enhanced_ecommerce_tracking.object.factory.product_detail_impression:
-        class: StefanDoorn\SyliusGtmEnhancedEcommercePlugin\Object\Factory\ProductDetailImpressionFactory
-        
+        class: Titi60\SyliusGtmEnhancedEcommercePlugin\Object\Factory\ProductDetailImpressionFactory
+
     sylius.google_tag_manager.enhanced_ecommerce_tracking.twig.extension.parameters:
-        class: StefanDoorn\SyliusGtmEnhancedEcommercePlugin\Twig\ParameterExtension
+        class: Titi60\SyliusGtmEnhancedEcommercePlugin\Twig\ParameterExtension
         arguments:
             - "%sylius_gtm_enhanced_ecommerce.features.purchases%"
             - "%sylius_gtm_enhanced_ecommerce.features.product_impressions%"

@@ -1,10 +1,10 @@
 <?php declare(strict_types=1);
 
-namespace StefanDoorn\SyliusGtmEnhancedEcommercePlugin\Object;
+namespace Titi60\SyliusGtmEnhancedEcommercePlugin\Object;
 
 /**
  * Class ProductDetail
- * @package StefanDoorn\SyliusGtmEnhancedEcommercePlugin\Object
+ * @package Titi60\SyliusGtmEnhancedEcommercePlugin\Object
  */
 final class ProductDetail implements ProductDetailInterface
 {

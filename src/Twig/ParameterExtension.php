@@ -1,6 +1,6 @@
 <?php declare(strict_types=1);
 
-namespace StefanDoorn\SyliusGtmEnhancedEcommercePlugin\Twig;
+namespace Titi60\SyliusGtmEnhancedEcommercePlugin\Twig;
 
 use Twig\Extension\AbstractExtension;
 use Twig\TwigFunction;

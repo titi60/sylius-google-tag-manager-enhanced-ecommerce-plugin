@@ -1,11 +1,11 @@
 <?php declare(strict_types=1);
 
-namespace StefanDoorn\SyliusGtmEnhancedEcommercePlugin\Resolver;
+namespace Titi60\SyliusGtmEnhancedEcommercePlugin\Resolver;
 
-use StefanDoorn\SyliusGtmEnhancedEcommercePlugin\Object\Factory\ProductDetailFactoryInterface;
-use StefanDoorn\SyliusGtmEnhancedEcommercePlugin\Object\Factory\ProductDetailImpressionFactoryInterface;
-use StefanDoorn\SyliusGtmEnhancedEcommercePlugin\Object\ProductDetailImpressionInterface;
-use StefanDoorn\SyliusGtmEnhancedEcommercePlugin\Object\ProductDetailInterface;
+use Titi60\SyliusGtmEnhancedEcommercePlugin\Object\Factory\ProductDetailFactoryInterface;
+use Titi60\SyliusGtmEnhancedEcommercePlugin\Object\Factory\ProductDetailImpressionFactoryInterface;
+use Titi60\SyliusGtmEnhancedEcommercePlugin\Object\ProductDetailImpressionInterface;
+use Titi60\SyliusGtmEnhancedEcommercePlugin\Object\ProductDetailInterface;
 use Sylius\Component\Channel\Context\ChannelContextInterface;
 use Sylius\Component\Core\Calculator\ProductVariantPriceCalculatorInterface;
 use Sylius\Component\Core\Model\ProductInterface;
@@ -13,7 +13,7 @@ use Sylius\Component\Core\Model\ProductVariantInterface;
 
 /**
  * Class ProductDetailImpressionDataResolver
- * @package StefanDoorn\SyliusGtmEnhancedEcommercePlugin\Resolver
+ * @package Titi60\SyliusGtmEnhancedEcommercePlugin\Resolver
  */
 final class ProductDetailImpressionDataResolver implements ProductDetailImpressionDataResolverInterface
 {

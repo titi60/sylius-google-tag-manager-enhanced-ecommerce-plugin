@@ -1,15 +1,15 @@
 <?php declare(strict_types=1);
 
-namespace StefanDoorn\SyliusGtmEnhancedEcommercePlugin\Resolver\Cache;
+namespace Titi60\SyliusGtmEnhancedEcommercePlugin\Resolver\Cache;
 
-use StefanDoorn\SyliusGtmEnhancedEcommercePlugin\Object\ProductDetailImpressionInterface;
-use StefanDoorn\SyliusGtmEnhancedEcommercePlugin\Resolver\ProductDetailImpressionDataResolverInterface;
+use Titi60\SyliusGtmEnhancedEcommercePlugin\Object\ProductDetailImpressionInterface;
+use Titi60\SyliusGtmEnhancedEcommercePlugin\Resolver\ProductDetailImpressionDataResolverInterface;
 use Sylius\Component\Core\Model\ProductInterface;
 use Symfony\Component\Cache\Adapter\AdapterInterface;
 
 /**
  * Class ProductDetailImpressionCachedDataResolver
- * @package StefanDoorn\SyliusGtmEnhancedEcommercePlugin\Resolver\Cache
+ * @package Titi60\SyliusGtmEnhancedEcommercePlugin\Resolver\Cache
  */
 final class ProductDetailImpressionCachedDataResolver implements ProductDetailImpressionDataResolverInterface
 {

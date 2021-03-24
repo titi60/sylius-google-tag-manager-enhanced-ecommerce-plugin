@@ -1,9 +1,9 @@
 <?php declare(strict_types=1);
 
-namespace StefanDoorn\SyliusGtmEnhancedEcommercePlugin\Object\Factory;
+namespace Titi60\SyliusGtmEnhancedEcommercePlugin\Object\Factory;
 
-use StefanDoorn\SyliusGtmEnhancedEcommercePlugin\Object\ProductDetail;
-use StefanDoorn\SyliusGtmEnhancedEcommercePlugin\Object\ProductDetailInterface;
+use Titi60\SyliusGtmEnhancedEcommercePlugin\Object\ProductDetail;
+use Titi60\SyliusGtmEnhancedEcommercePlugin\Object\ProductDetailInterface;
 
 final class ProductDetailFactory implements ProductDetailFactoryInterface
 {

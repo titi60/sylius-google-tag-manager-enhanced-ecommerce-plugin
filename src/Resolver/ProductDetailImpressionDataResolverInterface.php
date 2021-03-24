@@ -1,13 +1,13 @@
 <?php declare(strict_types=1);
 
-namespace StefanDoorn\SyliusGtmEnhancedEcommercePlugin\Resolver;
+namespace Titi60\SyliusGtmEnhancedEcommercePlugin\Resolver;
 
-use StefanDoorn\SyliusGtmEnhancedEcommercePlugin\Object\ProductDetailImpressionInterface;
+use Titi60\SyliusGtmEnhancedEcommercePlugin\Object\ProductDetailImpressionInterface;
 use Sylius\Component\Core\Model\ProductInterface;
 
 /**
  * Interface ProductDetailImpressionDataResolverInterface
- * @package StefanDoorn\SyliusGtmEnhancedEcommercePlugin\Resolver
+ * @package Titi60\SyliusGtmEnhancedEcommercePlugin\Resolver
  */
 interface ProductDetailImpressionDataResolverInterface
 {
