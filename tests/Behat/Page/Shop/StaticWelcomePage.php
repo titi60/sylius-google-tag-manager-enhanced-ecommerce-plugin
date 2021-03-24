@@ -1,6 +1,6 @@
 <?php
 
-namespace Tests\StefanDoorn\SyliusGtmEnhancedEcommercePlugin\Behat\Page\Shop;
+namespace Tests\Titi60\SyliusGtmEnhancedEcommercePlugin\Behat\Page\Shop;
 
 use Sylius\Behat\Page\SymfonyPage;
 

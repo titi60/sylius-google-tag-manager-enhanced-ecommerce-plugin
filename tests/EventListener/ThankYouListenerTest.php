@@ -1,9 +1,9 @@
 <?php declare(strict_types=1);
 
-namespace Tests\StefanDoorn\SyliusGtmEnhancedEcommercePlugin\EventListener;
+namespace Tests\Titi60\SyliusGtmEnhancedEcommercePlugin\EventListener;
 
-use StefanDoorn\SyliusGtmEnhancedEcommercePlugin\EventListener\ThankYouListener;
-use StefanDoorn\SyliusGtmEnhancedEcommercePlugin\TagManager\AddTransaction;
+use Titi60\SyliusGtmEnhancedEcommercePlugin\EventListener\ThankYouListener;
+use Titi60\SyliusGtmEnhancedEcommercePlugin\TagManager\AddTransaction;
 use PHPUnit\Framework\TestCase;
 use Sylius\Bundle\OrderBundle\Controller\OrderController;
 use Sylius\Component\Channel\Context\ChannelContextInterface;
@@ -14,8 +14,8 @@ use Xynnn\GoogleTagManagerBundle\Service\GoogleTagManager;
 
 /**
  * Class ThankYouListenerTest
- * @package Tests\StefanDoorn\SyliusGtmEnhancedEcommercePlugin\EventListener
- * @covers \StefanDoorn\SyliusGtmEnhancedEcommercePlugin\EventListener\ThankYouListener
+ * @package Tests\Titi60\SyliusGtmEnhancedEcommercePlugin\EventListener
+ * @covers \Titi60\SyliusGtmEnhancedEcommercePlugin\EventListener\ThankYouListener
  */
 final class ThankYouListenerTest extends TestCase
 {

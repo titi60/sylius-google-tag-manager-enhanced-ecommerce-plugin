@@ -1,19 +1,19 @@
 <?php declare(strict_types=1);
 
-namespace Tests\StefanDoorn\SyliusGtmEnhancedEcommercePlugin\TagManager;
+namespace Tests\Titi60\SyliusGtmEnhancedEcommercePlugin\TagManager;
 
 use PHPUnit\Framework\TestCase;
 use Sylius\Component\Channel\Context\ChannelContextInterface;
 use Sylius\Component\Core\Model\Channel;
 use Sylius\Component\Core\Model\Order;
 use Sylius\Component\Currency\Context\CurrencyContextInterface;
-use StefanDoorn\SyliusGtmEnhancedEcommercePlugin\TagManager\AddTransaction;
+use Titi60\SyliusGtmEnhancedEcommercePlugin\TagManager\AddTransaction;
 use Xynnn\GoogleTagManagerBundle\Service\GoogleTagManager;
 
 /**
  * Class AddTransactionTest
- * @package Tests\StefanDoorn\SyliusGtmEnhancedEcommercePlugin\TagManager
- * @covers \StefanDoorn\SyliusGtmEnhancedEcommercePlugin\TagManager\AddTransaction
+ * @package Tests\Titi60\SyliusGtmEnhancedEcommercePlugin\TagManager
+ * @covers \Titi60\SyliusGtmEnhancedEcommercePlugin\TagManager\AddTransaction
  */
 final class AddTransactionTest extends TestCase
 {

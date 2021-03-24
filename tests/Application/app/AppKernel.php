@@ -21,7 +21,7 @@ final class AppKernel extends Kernel
 
             new Xynnn\GoogleTagManagerBundle\GoogleTagManagerBundle(),
             new GtmPlugin(),
-            new StefanDoorn\SyliusGtmEnhancedEcommercePlugin\SyliusGtmEnhancedEcommercePlugin(),
+            new \Titi60\SyliusGtmEnhancedEcommercePlugin\SyliusGtmEnhancedEcommercePlugin(),
         ]);
     }
 

@@ -1,9 +1,9 @@
 <?php declare(strict_types=1);
 
-namespace Tests\StefanDoorn\SyliusGtmEnhancedEcommercePlugin\DependencyInjection;
+namespace Tests\Titi60\SyliusGtmEnhancedEcommercePlugin\DependencyInjection;
 
 use PHPUnit\Framework\TestCase;
-use StefanDoorn\SyliusGtmEnhancedEcommercePlugin\DependencyInjection\SyliusGtmEnhancedEcommerceExtension;
+use Titi60\SyliusGtmEnhancedEcommercePlugin\DependencyInjection\SyliusGtmEnhancedEcommerceExtension;
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\DependencyInjection\ParameterBag\ParameterBag;
 

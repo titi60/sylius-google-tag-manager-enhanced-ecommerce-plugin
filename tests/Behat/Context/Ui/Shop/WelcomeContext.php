@@ -1,9 +1,9 @@
 <?php
 
-namespace Tests\StefanDoorn\SyliusGtmEnhancedEcommercePlugin\Behat\Context\Ui\Shop;
+namespace Tests\Titi60\SyliusGtmEnhancedEcommercePlugin\Behat\Context\Ui\Shop;
 
 use Behat\Behat\Context\Context;
-use Tests\StefanDoorn\SyliusGtmEnhancedEcommercePlugin\Behat\Page\Shop\WelcomePageInterface;
+use Tests\Titi60\SyliusGtmEnhancedEcommercePlugin\Behat\Page\Shop\WelcomePageInterface;
 use Webmozart\Assert\Assert;
 
 final class WelcomeContext implements Context

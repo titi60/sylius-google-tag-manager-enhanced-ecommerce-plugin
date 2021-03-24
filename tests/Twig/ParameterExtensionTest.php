@@ -1,9 +1,9 @@
 <?php declare(strict_types=1);
 
-namespace Tests\StefanDoorn\SyliusGtmEnhancedEcommercePlugin\Twig;
+namespace Tests\Titi60\SyliusGtmEnhancedEcommercePlugin\Twig;
 
 use PHPUnit\Framework\TestCase;
-use StefanDoorn\SyliusGtmEnhancedEcommercePlugin\Twig\ParameterExtension;
+use Titi60\SyliusGtmEnhancedEcommercePlugin\Twig\ParameterExtension;
 use Twig\Environment;
 use Twig\Loader\ArrayLoader;
 
