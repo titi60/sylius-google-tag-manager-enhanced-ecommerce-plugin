@@ -4,7 +4,7 @@
     "description": "Google Tag Manager Enhanced Ecommerce plugin for Sylius.",
     "license": "MIT",
     "require": {
-        "stefandoorn/google-tag-manager-plugin": "~0.3"
+        "titi60/google-tag-manager-plugin": "master"
     },
     "require-dev": {
         "behat/behat": "^3.3",
@@ -32,6 +32,12 @@
             "Titi60\\SyliusGtmEnhancedEcommercePlugin\\": "src/"
         }
     },
+    "repositories": [
+        {
+          "type": "vcs",
+          "url": "https://github.com/titi60/google-tag-manager-plugin"
+        }
+      ],
     "autoload-dev": {
         "classmap": ["tests/Application/app/AppKernel.php"],
         "psr-4": {
