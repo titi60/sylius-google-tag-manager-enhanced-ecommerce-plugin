@@ -3,7 +3,7 @@
 namespace Titi60\SyliusGtmEnhancedEcommercePlugin\EventListener;
 
 use Titi60\SyliusGtmEnhancedEcommercePlugin\TagManager\AddTransactionInterface;
-use Sylius\Bundle\CoreBundle\Controller\OrderController;
+use App\Controller\Resources\OrderController;
 use Sylius\Component\Core\Model\OrderInterface;
 use Sylius\Component\Core\Repository\OrderRepositoryInterface;
 use Symfony\Component\HttpKernel\Event\ControllerEvent;
